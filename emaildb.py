@@ -15,7 +15,6 @@ SELECT hex(User.name || Course.title || Member.role ) AS X FROM
 Find the first row in the resulting record set and enter the long string that looks like 53656C696E613333.
 '''
 
-
 import json
 import sqlite3
 
